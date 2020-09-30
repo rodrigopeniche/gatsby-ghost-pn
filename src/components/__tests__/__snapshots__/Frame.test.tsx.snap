@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Frame renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "background": "rgb(218,221,225)",
+      "paddingTop": "60px",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "margin": "0 auto",
+        "width": "960px",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "background": "#FFF",
+          "borderRadius": "7px 7px 0 0",
+          "display": "flex",
+          "padding": "5px",
+        }
+      }
+    >
+      <div>
+        children
+      </div>
+    </div>
+  </div>
+</div>
+`;

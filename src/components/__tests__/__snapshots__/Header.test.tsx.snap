@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Article renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "background": "linear-gradient(0deg, rgba(196, 196, 196, 0) 0.58%, rgba(196, 196, 196, 0.3) 18px, rgba(196, 196, 196, 0) 19px",
+      "boxSizing": "content-box",
+      "display": "flex",
+      "gridArea": "header",
+      "height": "36px",
+      "justifyContent": "space-between",
+      "margin": "-5px -5px 0",
+      "minWidth": "200px",
+      "padding": "0 12px 0 16px",
+      "position": "relative",
+      "textTransform": "uppercase",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "color": "#91A6BC",
+        "fontSize": "16px",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "lineHeight": "18px",
+        "textAlign": "center",
+      }
+    }
+  >
+    NY phone number lookups
+  </div>
+  <div
+    style={
+      Object {
+        "height": "130px",
+        "left": "calc((100% - 174px)/2)",
+        "marginTop": "-15px",
+        "position": "absolute",
+        "top": "calc((100% - 130px)/2)",
+        "width": "174px",
+      }
+    }
+  >
+    <img
+      style={
+        Object {
+          "marginBottom": "0px",
+          "marginTop": "15px",
+        }
+      }
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "flexWrap": "wrap",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <div
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "marginBottom": "5px",
+          "marginLeft": "0px",
+          "marginTop": "5px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "backgroundColor": "#ee0017",
+            "borderRadius": "50%",
+            "content": "",
+            "display": "inline-block",
+            "height": "5px",
+            "marginRight": "5px",
+            "width": "5px",
+          }
+        }
+      />
+      <a
+        href="http://members.staterecords.org/customer/login"
+        style={
+          Object {
+            "color": "#305983",
+            "fontSize": "12px",
+            "lineHeight": "14px",
+            "marginLeft": "auto",
+            "textDecoration": "none",
+          }
+        }
+      >
+        Login
+      </a>
+    </div>
+    <div
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "marginBottom": "5px",
+          "marginLeft": "15px",
+          "marginTop": "5px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "backgroundColor": "#ee0017",
+            "borderRadius": "50%",
+            "content": "",
+            "display": "inline-block",
+            "height": "5px",
+            "marginRight": "5px",
+            "width": "5px",
+          }
+        }
+      />
+      <a
+        href="http://members.staterecords.org/customer/help"
+        style={
+          Object {
+            "color": "#305983",
+            "fontSize": "12px",
+            "lineHeight": "14px",
+            "marginLeft": "auto",
+            "textDecoration": "none",
+          }
+        }
+      >
+        Contact us
+      </a>
+    </div>
+  </div>
+</div>
+`;

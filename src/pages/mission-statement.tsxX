@@ -1,0 +1,121 @@
+import * as React from "react"
+import Frame from "../components/frame/Frame"
+import MissionStatement from "../components/mission-statement/MissionStatement"
+import { graphql } from "gatsby"
+import { BreakpointProvider } from "../hooks/useBreakpoints"
+import Article from "../components/article/Article"
+import MissionStatementContainer from "../components/MissionStatementContainer"
+import Header from "../components/header/Header"
+import Footer from "../components/footer/Footer"
+
+// takes an array of objects and merges the items into a single object, keyed by a field
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const arrayToObject = (array: [], keyField: string): Record<string, any> =>
+    array.reduce((obj, item) => {
+        obj[item[keyField]] = item
+        return obj
+    }, {})
+
+const extractArticles = (data: {
+    allStrapiArticle: { edges: { node: any }[] }
+}) =>
+    data.allStrapiArticle.edges
+        .map((edge: { node: any }) => edge.node)
+        .reduce(
+            (
+                accumulator: { [key: string]: any },
+                current: {
+                    name: string | number
+                    sections: any
+                    subdomain: string
+                }
+            ) => {
+                if (!(current.subdomain in accumulator)) {
+                    accumulator[current.subdomain] = {}
+                }
+                accumulator[current.subdomain][current.name] = {}
+                // get sections, isolate sidebar and remove it form og array
+                let sectionsObject = arrayToObject(current.sections, "name")
+                if ("sidebar" in sectionsObject && sectionsObject["sidebar"]["content"] != null) {
+                    console.log("sidebar", current.subdomain, current.name, accumulator)
+                    accumulator[current.subdomain][current.name]["sidebar"] =
+                        sectionsObject["sidebar"]["content"]
+                    for (var i = current.sections.length - 1; i >= 0; --i) {
+                        if (current.sections[i].name == "sidebar") {
+                            current.sections.splice(i,1);
+                        }
+                    }
+                }
+                accumulator[current.subdomain][current.name]["sections"] = current.sections
+                return accumulator
+            },
+            {}
+        )
+
+const queries = {
+    md: "(max-width: 767px)",
+    sm: "(max-width: 600px)",
+    xs: "(max-width: 480px)",
+    ms: "(max-width: 420px)",
+    ss: "(max-width: 320px)",
+    iss: "(max-width: 327px)",
+    amd: "(max-width: 750px)",
+    asm: "(max-width: 719px)",
+    fmd: "(max-width: 959px)",
+    fsm: "(max-width: 539px)",
+    wmd: "(max-width: 639px)",
+    wsm: "(max-width: 799px)",
+    wxs: "(max-width: 960px)",
+    wms: "(max-width: 749px)",
+    mmd: "(max-width: 1124px)",
+    msm: "(max-width: 540px)",
+    mxs: "(max-width: 1125px)",
+    mms: "(max-width: 541px)",
+}
+
+const SecondPage = ({ data }: { data: any }) => {
+    const articles = extractArticles(data)
+    const subdomain = process.env.SUBDOMAIN
+    console.log('articles MS', articles )
+
+    return (
+        <BreakpointProvider queries={queries}>
+            <Frame>
+                <MissionStatementContainer>
+                    <Header missionStatement />
+                    <MissionStatement />
+                    { !subdomain ? null :
+                        <Article
+                            missionStatement
+                            data={articles[subdomain]["mission-statement"]}
+                        />
+                    }
+                </MissionStatementContainer>
+            </Frame>
+            <Footer />
+        </BreakpointProvider>
+    )
+}
+
+export const query = graphql`
+    {
+        allStrapiArticle {
+            edges {
+                node {
+                    name
+                    subdomain
+                    sections {
+                        id
+                        name
+                        content
+                        cells {
+                            content
+                        }
+                    }
+                }
+            }
+        }
+    }
+`
+
+export default SecondPage

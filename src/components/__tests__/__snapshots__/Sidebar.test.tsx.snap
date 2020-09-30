@@ -1,0 +1,534 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`sidebar renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "gridArea": "sidebar",
+      "height": "100%",
+      "minWidth": "170px",
+    }
+  }
+>
+  <img
+    style={
+      Object {
+        "alignContent": "center",
+        "marginRight": "15px",
+        "minWidth": "97%",
+      }
+    }
+  />
+  <div
+    style={
+      Object {
+        "margin": "none",
+        "maxWidth": "633px",
+      }
+    }
+  >
+    <h1
+      style={
+        Object {
+          "color": "#305983",
+          "fontFamily": "Georgia",
+          "fontSize": "24px",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "lineHeight": "27px",
+          "marginLeft": "5px",
+          "marginTop": "-29px",
+        }
+      }
+    >
+      Results Include
+    </h1>
+    <div
+      style={
+        Object {
+          "borderBottom": "1.7px solid #D30100",
+          "marginRight": "7px",
+          "marginTop": "-23px",
+        }
+      }
+    />
+    <h1
+      style={
+        Object {
+          "color": "#44444",
+          "fontFamily": "Georgi",
+          "fontSize": "18px",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "lineHeight": "20px",
+          "paddingTop": "19px",
+        }
+      }
+    >
+      Full Phone Details:
+    </h1>
+    <div
+      style={
+        Object {
+          "paddingTop": "3px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "marginLeft": "-2px",
+            "marginTop": "-12.5px",
+          }
+        }
+      >
+        <li
+          style={
+            Object {
+              "background": "url(undefined)",
+              "backgroundRepeat": "no-repeat",
+              "display": "flex",
+              "listStyleType": "none",
+            }
+          }
+        >
+          <p
+            style={
+              Object {
+                "color": "#808080",
+                "fontFamily": "Arial",
+                "fontSize": "14px",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+                "lineHeight": "16px",
+                "paddingLeft": "21px",
+                "paddingTop": "6px",
+              }
+            }
+          >
+            Owner's Details
+          </p>
+        </li>
+      </div>
+      <div
+        style={
+          Object {
+            "marginLeft": "-2px",
+            "marginTop": "-12.5px",
+          }
+        }
+      >
+        <li
+          style={
+            Object {
+              "background": "url(undefined)",
+              "backgroundRepeat": "no-repeat",
+              "display": "flex",
+              "listStyleType": "none",
+            }
+          }
+        >
+          <p
+            style={
+              Object {
+                "color": "#808080",
+                "fontFamily": "Arial",
+                "fontSize": "14px",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+                "lineHeight": "16px",
+                "paddingLeft": "21px",
+                "paddingTop": "6px",
+              }
+            }
+          >
+            Contact info
+          </p>
+        </li>
+      </div>
+      <div
+        style={
+          Object {
+            "marginLeft": "-2px",
+            "marginTop": "-12.5px",
+          }
+        }
+      >
+        <li
+          style={
+            Object {
+              "background": "url(undefined)",
+              "backgroundRepeat": "no-repeat",
+              "display": "flex",
+              "listStyleType": "none",
+            }
+          }
+        >
+          <p
+            style={
+              Object {
+                "color": "#808080",
+                "fontFamily": "Arial",
+                "fontSize": "14px",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+                "lineHeight": "16px",
+                "paddingLeft": "21px",
+                "paddingTop": "6px",
+              }
+            }
+          >
+            Location
+          </p>
+        </li>
+      </div>
+      <div
+        style={
+          Object {
+            "marginLeft": "-2px",
+            "marginTop": "-12.5px",
+          }
+        }
+      >
+        <li
+          style={
+            Object {
+              "background": "url(undefined)",
+              "backgroundRepeat": "no-repeat",
+              "display": "flex",
+              "listStyleType": "none",
+            }
+          }
+        >
+          <p
+            style={
+              Object {
+                "color": "#808080",
+                "fontFamily": "Arial",
+                "fontSize": "14px",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+                "lineHeight": "16px",
+                "paddingLeft": "21px",
+                "paddingTop": "6px",
+              }
+            }
+          >
+            Family members
+          </p>
+        </li>
+      </div>
+      <div
+        style={
+          Object {
+            "marginLeft": "-2px",
+            "marginTop": "-12.5px",
+          }
+        }
+      >
+        <li
+          style={
+            Object {
+              "background": "url(undefined)",
+              "backgroundRepeat": "no-repeat",
+              "display": "flex",
+              "listStyleType": "none",
+            }
+          }
+        >
+          <p
+            style={
+              Object {
+                "color": "#808080",
+                "fontFamily": "Arial",
+                "fontSize": "14px",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+                "lineHeight": "16px",
+                "paddingLeft": "21px",
+                "paddingTop": "6px",
+              }
+            }
+          >
+            Estimated income
+          </p>
+        </li>
+      </div>
+      <div
+        style={
+          Object {
+            "marginLeft": "-2px",
+            "marginTop": "-12.5px",
+          }
+        }
+      >
+        <li
+          style={
+            Object {
+              "background": "url(undefined)",
+              "backgroundRepeat": "no-repeat",
+              "display": "flex",
+              "listStyleType": "none",
+            }
+          }
+        >
+          <p
+            style={
+              Object {
+                "color": "#808080",
+                "fontFamily": "Arial",
+                "fontSize": "14px",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+                "lineHeight": "16px",
+                "paddingLeft": "21px",
+                "paddingTop": "6px",
+              }
+            }
+          >
+            Property ownership
+          </p>
+        </li>
+      </div>
+      <div
+        style={
+          Object {
+            "marginLeft": "-2px",
+            "marginTop": "-12.5px",
+          }
+        }
+      >
+        <li
+          style={
+            Object {
+              "background": "url(undefined)",
+              "backgroundRepeat": "no-repeat",
+              "display": "flex",
+              "listStyleType": "none",
+            }
+          }
+        >
+          <p
+            style={
+              Object {
+                "color": "#808080",
+                "fontFamily": "Arial",
+                "fontSize": "14px",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+                "lineHeight": "16px",
+                "paddingLeft": "21px",
+                "paddingTop": "6px",
+              }
+            }
+          >
+            Timezone
+          </p>
+        </li>
+      </div>
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "marginTop": "20px",
+      }
+    }
+  >
+    <h1
+      style={
+        Object {
+          "color": "#575757",
+          "fontFamily": "Arial",
+          "fontSize": "14px",
+          "fontStyle": "italic",
+          "fontWeight": "bold",
+          "lineHeight": "16px",
+          "marginTop": "-5px",
+        }
+      }
+    >
+      Texas Reverse Phone Lookup
+    </h1>
+    <p
+      style={
+        Object {
+          "color": "#575757",
+          "fontFamily": "Arial",
+          "fontSize": "11px",
+          "fontStyle": "italic",
+          "fontWeight": "normal",
+          "lineHeight": "18px",
+          "marginRight": "10px",
+          "marginTop": "-19px",
+        }
+      }
+    >
+      Reverse phone search, or phone number lookup, refers to the process in which an individual can discover more about the person behind a phone number. Because paperwork and other information is required to be provided when being granted a phone number, it is possible to learn more about the individual calling you simply by using the phone number they used to call.
+    </p>
+  </div>
+  <img
+    style={
+      Object {
+        "marginTop": "5px",
+        "minWidth": "97%",
+      }
+    }
+  />
+  <div
+    style={
+      Object {
+        "background": "#F1F1F1",
+        "borderRadius": "0",
+        "marginRight": "11px",
+        "marginTop": "-15px",
+        "maxWidth": "97%",
+      }
+    }
+  >
+    <h1
+      style={
+        Object {
+          "color": "#444444",
+          "fontFamily": "Georgia",
+          "fontSize": "18px",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "lineHeight": "20px",
+          "paddingLeft": "18px",
+          "paddingTop": "16.74px",
+        }
+      }
+    >
+      Federal Hotline Phones:
+    </h1>
+    <p
+      style={
+        Object {
+          "color": "#808080",
+          "fontFamily": "Arial",
+          "fontSize": "14px",
+          "fontStyle": "normal",
+          "fontWeight": "bold",
+          "lineHeight": "16px",
+          "marginTop": "-10px",
+          "paddingLeft": "18px",
+        }
+      }
+    >
+      The
+       
+      <a
+        href="USA.gov"
+        style={
+          Object {
+            "fontWeight": "normal",
+          }
+        }
+      >
+        USA.gov
+      </a>
+       
+      telephone line:
+    </p>
+    <p
+      style={
+        Object {
+          "color": "#808080",
+          "fontFamily": "Arial",
+          "fontSize": "14px",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "lineHeight": "16px",
+          "marginTop": "-10px",
+          "paddingLeft": "18px",
+        }
+      }
+    >
+      +1-844-872-4681
+    </p>
+    <h1
+      style={
+        Object {
+          "color": "#2C5580",
+          "fontFamily": "Arial",
+          "fontSize": "14px",
+          "fontStyle": "normal",
+          "fontWeight": "bold",
+          "lineHeight": "16px",
+          "marginTop": "-5px",
+          "paddingLeft": "18px",
+          "textDecorationLine": "underline",
+        }
+      }
+    >
+      National Do Not Call Registry
+    </h1>
+    <p
+      style={
+        Object {
+          "color": "#808080",
+          "fontFamily": "Arial",
+          "fontSize": "14px",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "lineHeight": "16px",
+          "marginTop": "-23px",
+          "paddingLeft": "18px",
+        }
+      }
+    >
+      +1-888-382-1222
+    </p>
+    <h1
+      style={
+        Object {
+          "color": "#2C5580",
+          "fontFamily": "Arial",
+          "fontSize": "14px",
+          "fontStyle": "normal",
+          "fontWeight": "bold",
+          "lineHeight": "16px",
+          "marginTop": "-5px",
+          "paddingLeft": "18px",
+          "textDecorationLine": "underline",
+        }
+      }
+    >
+      The Federal Trade Comission
+    </h1>
+    <p
+      style={
+        Object {
+          "color": "#808080",
+          "fontFamily": "Arial",
+          "fontSize": "14px",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "lineHeight": "16px",
+          "marginTop": "-23px",
+          "paddingLeft": "18px",
+        }
+      }
+    >
+      +1-888-225-5322
+    </p>
+    <p
+      style={
+        Object {
+          "color": "#808080",
+          "fontFamily": "Arial",
+          "fontSize": "10px",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "lineHeight": "11px",
+          "paddingBottom": "25px",
+          "paddingLeft": "18px",
+        }
+      }
+    >
+      Lines are available between 8:00 AM and 8:00 PM ET, Monday through Friday, except federal holidays.
+    </p>
+  </div>
+</div>
+`;

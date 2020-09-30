@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mission statement article renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "boxSizing": "border-box",
+      "marginLeft": "11px",
+      "marginRight": "11px",
+      "maxWidth": "929px",
+      "minWidth": "250px",
+    }
+  }
+>
+  <div
+    className="children"
+  >
+    <span
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<div>children</div>",
+        }
+      }
+    />
+  </div>
+</div>
+`;

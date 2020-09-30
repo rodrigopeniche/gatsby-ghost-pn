@@ -1,0 +1,747 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBox elements testing renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "gridArea": "search-box",
+      "minWidth": "200px",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "backgroundColor": "#315680",
+        "backgroundImage": "url(undefined)",
+        "backgroundRepeat": "no-repeat",
+        "backgroundSize": "cover",
+        "boxSizing": "border-box",
+        "marginLeft": "11px",
+        "marginRight": "18px",
+        "maxWidth": "633px",
+        "minHeight": "260px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "display": "block",
+          "paddingTop": "41px",
+        }
+      }
+    >
+      <h1
+        style={
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "Georgia",
+            "fontSize": "36px",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "marginBottom": "22px",
+            "textAlign": "center",
+          }
+        }
+      >
+        Select a number
+      </h1>
+      <div
+        style={
+          Object {
+            "borderBottom": "1.3px solid #FFFFFF",
+            "opacity": "0.23",
+          }
+        }
+      />
+    </div>
+    <div
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexWrap": "wrap",
+          "fontFamily": "Arial",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "justifyContent": "center",
+          "margin": "0 auto",
+          "paddingTop": "18px",
+          "position": "relative",
+          "textAlign": "center",
+        }
+      }
+    >
+      <p
+        style={
+          Object {
+            "alignSelf": "flex-end",
+            "color": "#FFFFFF",
+            "display": "inline-block",
+            "fontSize": "30px",
+            "lineHeight": "34px",
+            "marginBottom": "0px",
+            "marginRight": "10px",
+            "verticalAlign": "middle",
+          }
+        }
+      >
+        +1
+      </p>
+      <div
+        style={
+          Object {
+            "display": "flex",
+            "flexBasis": "58px",
+            "flexGrow": 1,
+            "maxWidth": "104px",
+            "minWidth": "58px",
+            "position": "relative",
+          }
+        }
+      >
+        <p
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "color": "#FFFFFF",
+              "display": "none",
+              "fontSize": "12px",
+              "left": "-14px",
+              "lineHeight": "34px",
+              "marginBottom": "0px",
+              "position": "absolute",
+              "verticalAlign": "middle",
+            }
+          }
+        >
+          +1
+        </p>
+        <p
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "color": "#FFFFFF",
+              "fontFamily": "Arial",
+              "fontSize": "30px",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+              "lineHeight": "34px",
+              "marginBottom": "0px",
+            }
+          }
+        >
+          (
+        </p>
+        <div
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "column",
+              "maxWidth": "84px",
+              "width": "100%",
+            }
+          }
+        >
+          <label
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "display": "block",
+                "fontFamily": "Arial",
+                "fontSize": "12px",
+                "fontStyle": "normal",
+                "marginBottom": "0px",
+                "paddingBottom": "8px",
+                "textAlign": "center",
+              }
+            }
+          >
+            Area code
+          </label>
+          <input
+            name="area-code"
+            onChange={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            required={true}
+            size={3}
+            style={
+              Object {
+                "background": "#FFFAC1",
+                "border": "none",
+                "borderRadius": "5px",
+                "boxSizing": "border-box",
+                "display": "inline-block",
+                "height": "33px",
+                "marginBottom": "0px",
+                "marginLeft": "8px",
+                "marginRight": "8px",
+                "marginTop": "0px",
+                "maxWidth": "70px",
+                "minWidth": "50px",
+                "textAlign": "center",
+              }
+            }
+            type="number"
+            value=""
+          />
+        </div>
+        <p
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "color": "#FFFFFF",
+              "fontFamily": "Arial",
+              "fontSize": "30px",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+              "lineHeight": "34px",
+              "marginBottom": "0px",
+            }
+          }
+        >
+          )
+        </p>
+      </div>
+      <div
+        style={
+          Object {
+            "display": "flex",
+            "flexBasis": "58px",
+            "flexDirection": "column",
+            "flexGrow": 1,
+            "maxWidth": "84px",
+            "minWidth": "58px",
+            "position": "relative",
+          }
+        }
+      >
+        <label
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "display": "block",
+              "fontFamily": "Arial",
+              "fontSize": "12px",
+              "fontStyle": "normal",
+              "marginBottom": "0px",
+              "paddingBottom": "8px",
+              "textAlign": "center",
+            }
+          }
+        >
+          Exchange
+        </label>
+        <input
+          name="exchange"
+          onChange={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          required={true}
+          size={3}
+          style={
+            Object {
+              "background": "#FFFAC1",
+              "border": "none",
+              "borderRadius": "5px",
+              "boxSizing": "border-box",
+              "display": "inline-block",
+              "height": "33px",
+              "marginBottom": "0px",
+              "marginLeft": "8px",
+              "marginRight": "8px",
+              "marginTop": "0px",
+              "maxWidth": "70px",
+              "minWidth": "50px",
+              "textAlign": "center",
+            }
+          }
+          type="number"
+          value=""
+        />
+      </div>
+      <div
+        style={
+          Object {
+            "alignSelf": "flex-end",
+            "borderTop": "2px solid #FFFFFF",
+            "marginBottom": "18px",
+            "marginLeft": "4px",
+            "marginRight": "7px",
+            "width": "17px",
+          }
+        }
+      />
+      <div
+        style={
+          Object {
+            "display": "block",
+            "flexBasis": "102px",
+            "flexGrow": 4,
+            "maxWidth": "138px",
+            "minWidth": "102px",
+            "position": "relative",
+          }
+        }
+      >
+        <label
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "display": "block",
+              "fontFamily": "Arial",
+              "fontSize": "12px",
+              "fontStyle": "normal",
+              "marginBottom": "0px",
+              "paddingBottom": "8px",
+              "textAlign": "center",
+            }
+          }
+        >
+          Subscriber number
+        </label>
+        <div
+          style={
+            Object {
+              "display": "flex",
+              "width": "100%",
+            }
+          }
+        >
+          <input
+            name="subscriber1"
+            onChange={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            required={true}
+            size={2}
+            style={
+              Object {
+                "background": "#FFFAC1",
+                "border": "none",
+                "borderRadius": "5px",
+                "boxSizing": "border-box",
+                "display": "inline-block",
+                "height": "33px",
+                "marginBottom": "0px",
+                "marginLeft": "5px",
+                "marginRight": "5px",
+                "marginTop": "0px",
+                "maxWidth": "59px",
+                "minWidth": "39px",
+                "textAlign": "center",
+              }
+            }
+            type="number"
+            value=""
+          />
+          <input
+            name="subscriber2"
+            onChange={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            required={true}
+            size={2}
+            style={
+              Object {
+                "background": "#FFFAC1",
+                "border": "none",
+                "borderRadius": "5px",
+                "boxSizing": "border-box",
+                "display": "inline-block",
+                "height": "33px",
+                "marginBottom": "0px",
+                "marginLeft": "5px",
+                "marginRight": "5px",
+                "marginTop": "0px",
+                "maxWidth": "59px",
+                "minWidth": "39px",
+                "textAlign": "center",
+              }
+            }
+            type="number"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SearchBox renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "gridArea": "search-box",
+      "minWidth": "200px",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "backgroundColor": "#315680",
+        "backgroundImage": "url(undefined)",
+        "backgroundRepeat": "no-repeat",
+        "backgroundSize": "cover",
+        "boxSizing": "border-box",
+        "marginLeft": "11px",
+        "marginRight": "18px",
+        "maxWidth": "633px",
+        "minHeight": "260px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "display": "block",
+          "paddingTop": "41px",
+        }
+      }
+    >
+      <h1
+        style={
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "Georgia",
+            "fontSize": "36px",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "marginBottom": "22px",
+            "textAlign": "center",
+          }
+        }
+      >
+        Select a number
+      </h1>
+      <div
+        style={
+          Object {
+            "borderBottom": "1.3px solid #FFFFFF",
+            "opacity": "0.23",
+          }
+        }
+      />
+    </div>
+    <div
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexWrap": "wrap",
+          "fontFamily": "Arial",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "justifyContent": "center",
+          "margin": "0 auto",
+          "paddingTop": "18px",
+          "position": "relative",
+          "textAlign": "center",
+        }
+      }
+    >
+      <p
+        style={
+          Object {
+            "alignSelf": "flex-end",
+            "color": "#FFFFFF",
+            "display": "inline-block",
+            "fontSize": "30px",
+            "lineHeight": "34px",
+            "marginBottom": "0px",
+            "marginRight": "10px",
+            "verticalAlign": "middle",
+          }
+        }
+      >
+        +1
+      </p>
+      <div
+        style={
+          Object {
+            "display": "flex",
+            "flexBasis": "58px",
+            "flexGrow": 1,
+            "maxWidth": "104px",
+            "minWidth": "58px",
+            "position": "relative",
+          }
+        }
+      >
+        <p
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "color": "#FFFFFF",
+              "display": "none",
+              "fontSize": "12px",
+              "left": "-14px",
+              "lineHeight": "34px",
+              "marginBottom": "0px",
+              "position": "absolute",
+              "verticalAlign": "middle",
+            }
+          }
+        >
+          +1
+        </p>
+        <p
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "color": "#FFFFFF",
+              "fontFamily": "Arial",
+              "fontSize": "30px",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+              "lineHeight": "34px",
+              "marginBottom": "0px",
+            }
+          }
+        >
+          (
+        </p>
+        <div
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "column",
+              "maxWidth": "84px",
+              "width": "100%",
+            }
+          }
+        >
+          <label
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "display": "block",
+                "fontFamily": "Arial",
+                "fontSize": "12px",
+                "fontStyle": "normal",
+                "marginBottom": "0px",
+                "paddingBottom": "8px",
+                "textAlign": "center",
+              }
+            }
+          >
+            Area code
+          </label>
+          <input
+            name="area-code"
+            onChange={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            required={true}
+            size={3}
+            style={
+              Object {
+                "background": "#FFFAC1",
+                "border": "none",
+                "borderRadius": "5px",
+                "boxSizing": "border-box",
+                "display": "inline-block",
+                "height": "33px",
+                "marginBottom": "0px",
+                "marginLeft": "8px",
+                "marginRight": "8px",
+                "marginTop": "0px",
+                "maxWidth": "70px",
+                "minWidth": "50px",
+                "textAlign": "center",
+              }
+            }
+            type="number"
+            value=""
+          />
+        </div>
+        <p
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "color": "#FFFFFF",
+              "fontFamily": "Arial",
+              "fontSize": "30px",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+              "lineHeight": "34px",
+              "marginBottom": "0px",
+            }
+          }
+        >
+          )
+        </p>
+      </div>
+      <div
+        style={
+          Object {
+            "display": "flex",
+            "flexBasis": "58px",
+            "flexDirection": "column",
+            "flexGrow": 1,
+            "maxWidth": "84px",
+            "minWidth": "58px",
+            "position": "relative",
+          }
+        }
+      >
+        <label
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "display": "block",
+              "fontFamily": "Arial",
+              "fontSize": "12px",
+              "fontStyle": "normal",
+              "marginBottom": "0px",
+              "paddingBottom": "8px",
+              "textAlign": "center",
+            }
+          }
+        >
+          Exchange
+        </label>
+        <input
+          name="exchange"
+          onChange={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          required={true}
+          size={3}
+          style={
+            Object {
+              "background": "#FFFAC1",
+              "border": "none",
+              "borderRadius": "5px",
+              "boxSizing": "border-box",
+              "display": "inline-block",
+              "height": "33px",
+              "marginBottom": "0px",
+              "marginLeft": "8px",
+              "marginRight": "8px",
+              "marginTop": "0px",
+              "maxWidth": "70px",
+              "minWidth": "50px",
+              "textAlign": "center",
+            }
+          }
+          type="number"
+          value=""
+        />
+      </div>
+      <div
+        style={
+          Object {
+            "alignSelf": "flex-end",
+            "borderTop": "2px solid #FFFFFF",
+            "marginBottom": "18px",
+            "marginLeft": "4px",
+            "marginRight": "7px",
+            "width": "17px",
+          }
+        }
+      />
+      <div
+        style={
+          Object {
+            "display": "block",
+            "flexBasis": "102px",
+            "flexGrow": 4,
+            "maxWidth": "138px",
+            "minWidth": "102px",
+            "position": "relative",
+          }
+        }
+      >
+        <label
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "display": "block",
+              "fontFamily": "Arial",
+              "fontSize": "12px",
+              "fontStyle": "normal",
+              "marginBottom": "0px",
+              "paddingBottom": "8px",
+              "textAlign": "center",
+            }
+          }
+        >
+          Subscriber number
+        </label>
+        <div
+          style={
+            Object {
+              "display": "flex",
+              "width": "100%",
+            }
+          }
+        >
+          <input
+            name="subscriber1"
+            onChange={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            required={true}
+            size={2}
+            style={
+              Object {
+                "background": "#FFFAC1",
+                "border": "none",
+                "borderRadius": "5px",
+                "boxSizing": "border-box",
+                "display": "inline-block",
+                "height": "33px",
+                "marginBottom": "0px",
+                "marginLeft": "5px",
+                "marginRight": "5px",
+                "marginTop": "0px",
+                "maxWidth": "59px",
+                "minWidth": "39px",
+                "textAlign": "center",
+              }
+            }
+            type="number"
+            value=""
+          />
+          <input
+            name="subscriber2"
+            onChange={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            required={true}
+            size={2}
+            style={
+              Object {
+                "background": "#FFFAC1",
+                "border": "none",
+                "borderRadius": "5px",
+                "boxSizing": "border-box",
+                "display": "inline-block",
+                "height": "33px",
+                "marginBottom": "0px",
+                "marginLeft": "5px",
+                "marginRight": "5px",
+                "marginTop": "0px",
+                "maxWidth": "59px",
+                "minWidth": "39px",
+                "textAlign": "center",
+              }
+            }
+            type="number"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

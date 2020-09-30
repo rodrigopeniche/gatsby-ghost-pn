@@ -1,0 +1,133 @@
+h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-family: Georgia;
+    color: #000000;
+    font-size: 18px;
+    line-height: 20px;
+
+    margin-top: 22px;
+    margin-bottom: 12px;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: normal;
+    font-family: Georgia;
+    color: #000000;
+    font-size: 14px;
+    line-height: 16px;
+
+    margin-top: 18px;
+    margin-bottom: 11px;
+}
+
+p {
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial;
+    color: #555555;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 1em;
+}
+
+li {
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial;
+    color: #555555;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: calc(1.45rem / 2);
+}
+
+td {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+ul {
+    margin-left: 0px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+ul li {
+    list-style: none;
+    position: relative;
+    padding-left: 17px;
+    margin-bottom: 13px;
+}
+
+ul li:before {
+    background-color: #305b85;
+    border-radius: 50%;
+    content: "";
+    height: 8px;
+    left: 0;
+    position: absolute;
+    top: 3px;
+    width: 8px;
+}
+
+ol {
+    margin-left: 0px;
+    list-style: none;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+ol li {
+    position: relative;
+    counter-increment: table-ol;
+    padding-left: 21px;
+    margin-bottom: 13px;
+}
+
+ol li:before {
+    position: absolute;
+    content: counter(table-ol) ".";
+    left: 0;
+    text-align: right;
+}
+
+table {
+    margin-left: 0px;
+    margin-top: 33px;
+}
+
+tr {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+tr td {
+    border: none;
+    font-family: Arial;
+    padding-bottom: 9px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: end;
+    width: 97px;
+    box-sizing: content-box;
+}
+
+@media (max-width: 640px) {
+    tr td {
+        margin-right: 15%;
+    }
+}
+
+tr th {
+    border: none;
+    display: none;
+}
+
+a:link {
+    color: #195889;
+}

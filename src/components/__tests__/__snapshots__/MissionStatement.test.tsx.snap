@@ -1,0 +1,377 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MissionStatement renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "center",
+      "alignItems": "center",
+      "backgroundImage": "url(undefined)",
+      "backgroundRepeat": "no-repeat",
+      "backgroundSize": "cover",
+      "borderRadius": "5px",
+      "boxSizing": "border-box",
+      "display": "flex",
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "marginLeft": "11px",
+      "marginRight": "11px",
+      "maxWidth": "929px",
+      "minHeight": "187px",
+      "minWidth": "250px",
+      "textAlign": "left",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "flexDirection": "column",
+        "marginLeft": "24px",
+        "marginTop": "5px",
+      }
+    }
+  >
+    <h1
+      style={
+        Object {
+          "color": "#FFFFFF",
+          "display": "flex",
+          "fontFamily": "Georgia",
+          "fontSize": "36px",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "justifyContent": "normal",
+          "lineHeight": "41px",
+          "marginBottom": "0",
+          "marginTop": "0",
+        }
+      }
+    >
+      Mission statement
+    </h1>
+    <p
+      style={
+        Object {
+          "color": "#FFFFFF",
+          "display": "flex",
+          "fontFamily": "Georgia",
+          "fontSize": "19px",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "justifyContent": "normal",
+          "lineHeight": "34px",
+          "margin": "0",
+          "textAlign": "center",
+        }
+      }
+    >
+      is placeholder text commonly used in the graphic
+    </p>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexWrap": "wrap",
+        "fontFamily": "Arial",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "height": "60px",
+        "justifyContent": "center",
+        "marginRight": "-50px",
+        "marginTop": "13px",
+        "position": "relative",
+        "textAlign": "center",
+        "width": "262px",
+      }
+    }
+  >
+    <p
+      style={
+        Object {
+          "alignSelf": "flex-end",
+          "color": "#FFFFFF",
+          "display": "inline-block",
+          "fontSize": "30px",
+          "lineHeight": "34px",
+          "marginBottom": "0px",
+          "paddingBottom": "2.5px",
+          "verticalAlign": "middle",
+        }
+      }
+    >
+      1
+    </p>
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "flexBasis": "78px",
+          "flexGrow": 1,
+          "marginRight": "5px",
+          "maxWidth": "98px",
+          "minWidth": "78px",
+        }
+      }
+    >
+      <p
+        style={
+          Object {
+            "alignSelf": "flex-end",
+            "color": "#FFFFFF",
+            "fontFamily": "Arial",
+            "fontSize": "30px",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "lineHeight": "34px",
+            "marginBottom": "0px",
+            "paddingBottom": "5px",
+          }
+        }
+      >
+        (
+      </p>
+      <div
+        style={
+          Object {
+            "display": "flex",
+            "flexBasis": "58px",
+            "flexDirection": "column",
+            "flexGrow": 1,
+            "maxWidth": "78px",
+            "minWidth": "58px",
+            "position": "relative",
+            "width": "100%",
+          }
+        }
+      >
+        <label
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "display": "block",
+              "fontFamily": "Arial",
+              "fontSize": "12px",
+              "fontStyle": "normal",
+              "lineHeight": "14px",
+              "marginBottom": "12px",
+              "textAlign": "center",
+            }
+          }
+        >
+          Area code
+        </label>
+        <input
+          name="area-code"
+          onChange={[Function]}
+          required={true}
+          size={4}
+          style={
+            Object {
+              "background": "#FFFAC1",
+              "border": "none",
+              "borderRadius": "5px",
+              "boxSizing": "border-box",
+              "display": "inline-block",
+              "height": "33px",
+              "marginBottom": "0px",
+              "marginLeft": "2px",
+              "marginRight": "2px",
+              "marginTop": "0px",
+              "maxWidth": "70px",
+              "minWidth": "50px",
+              "textAlign": "center",
+            }
+          }
+          type="number"
+          value=""
+        />
+      </div>
+      <p
+        style={
+          Object {
+            "alignSelf": "flex-end",
+            "color": "#FFFFFF",
+            "fontFamily": "Arial",
+            "fontSize": "30px",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "lineHeight": "34px",
+            "marginBottom": "0px",
+            "paddingBottom": "5px",
+          }
+        }
+      >
+        )
+      </p>
+    </div>
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "flexBasis": "58px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "maxWidth": "63px",
+          "minWidth": "58px",
+          "position": "relative",
+        }
+      }
+    >
+      <label
+        style={
+          Object {
+            "color": "#FFFFFF",
+            "display": "block",
+            "fontFamily": "Arial",
+            "fontSize": "12px",
+            "fontStyle": "normal",
+            "lineHeight": "14px",
+            "marginBottom": "12px",
+            "textAlign": "center",
+          }
+        }
+      >
+        Exchange
+      </label>
+      <input
+        name="exchange"
+        onChange={[Function]}
+        required={true}
+        size={4}
+        style={
+          Object {
+            "background": "#FFFAC1",
+            "border": "none",
+            "borderRadius": "5px",
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "height": "33px",
+            "marginBottom": "0px",
+            "marginLeft": "2px",
+            "marginRight": "2px",
+            "marginTop": "0px",
+            "maxWidth": "70px",
+            "minWidth": "50px",
+            "textAlign": "center",
+          }
+        }
+        type="number"
+        value=""
+      />
+    </div>
+    <div
+      style={
+        Object {
+          "alignSelf": "flex-end",
+          "borderTop": "2px solid #FFFFFF",
+          "marginBottom": "18px",
+          "marginLeft": "7px",
+          "marginRight": "7px",
+          "width": "17px",
+        }
+      }
+    />
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "flexBasis": "58px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "maxWidth": "63px",
+          "minWidth": "58px",
+          "position": "relative",
+        }
+      }
+    >
+      <label
+        style={
+          Object {
+            "color": "#FFFFFF",
+            "display": "block",
+            "fontFamily": "Arial",
+            "fontSize": "12px",
+            "fontStyle": "normal",
+            "lineHeight": "14px",
+            "marginBottom": "12px",
+            "textAlign": "center",
+          }
+        }
+      >
+        Subscriber
+      </label>
+      <input
+        name="subscribe"
+        onChange={[Function]}
+        required={true}
+        size={4}
+        style={
+          Object {
+            "background": "#FFFAC1",
+            "border": "none",
+            "borderRadius": "5px",
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "height": "33px",
+            "marginBottom": "0px",
+            "marginLeft": "2px",
+            "marginRight": "2px",
+            "marginTop": "0px",
+            "maxWidth": "70px",
+            "minWidth": "50px",
+            "textAlign": "center",
+          }
+        }
+        type="number"
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "display": "block",
+        "margin": "39px 0 0 0",
+        "textAlign": "center",
+        "width": "113px",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "background": "linear-gradient(180deg, #FD1D00 0%, #B81200 100%)",
+          "borderRadius": "5px",
+          "display": "inline-block",
+          "filter": "drop-shadow(0px 1px 8px rgba(0, 0, 0, 0.6))",
+          "float": "right",
+          "height": "34px",
+          "marginRight": "21px",
+          "width": "100%",
+        }
+      }
+    >
+      <h1
+        style={
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "Georgia",
+            "fontSize": "15px",
+            "fontWeight": "bold",
+            "justifyContent": "center",
+            "lineHeight": "37px",
+            "marginBottom": "0",
+            "textAlign": "center",
+          }
+        }
+      >
+        SEARCH
+      </h1>
+    </div>
+  </div>
+</div>
+`;

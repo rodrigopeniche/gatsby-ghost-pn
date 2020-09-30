@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Article renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "boxSizing": "content-box",
+      "gridArea": "article",
+      "marginLeft": "11px",
+      "marginRight": "18px",
+      "maxWidth": "633px",
+      "minWidth": "200px",
+    }
+  }
+>
+  <div
+    className="children"
+  >
+    <span
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<div>children</div>",
+        }
+      }
+    />
+  </div>
+</div>
+`;

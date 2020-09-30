@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`footer renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "background": "rgb(218,221,225)",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "background": "#EBEEF2",
+        "boxShadow": "inset 0px 4px 20px rgba(0, 0, 0, 0.25)",
+        "display": "flex",
+        "flexDirection": "column",
+        "height": "100%",
+        "margin": "0 auto",
+        "width": "960px",
+      }
+    }
+  >
+    <h1
+      style={
+        Object {
+          "color": "#000000",
+          "fontFamily": "Georgia",
+          "fontSize": "16px",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "lineHeight": "18px",
+          "margin": "82px auto 30px auto",
+        }
+      }
+    >
+      WWW.PHONENUMBERS.ORG
+    </h1>
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "margin": "0 auto 70px auto",
+        }
+      }
+    >
+      <p
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Arial",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "bold",
+            "lineHeight": "18px",
+            "marginLeft": "5px",
+            "marginRight": "5px",
+          }
+        }
+      >
+        Home
+      </p>
+      <p
+        style={
+          Object {
+            "display": "none",
+          }
+        }
+      >
+        |
+      </p>
+      <p
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Arial",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "bold",
+            "lineHeight": "18px",
+            "marginLeft": "5px",
+            "marginRight": "5px",
+          }
+        }
+      >
+        FAQ
+      </p>
+      <p
+        style={
+          Object {
+            "display": "none",
+          }
+        }
+      >
+        |
+      </p>
+      <p
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Arial",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "bold",
+            "lineHeight": "18px",
+            "marginLeft": "5px",
+            "marginRight": "5px",
+          }
+        }
+      >
+        Help
+      </p>
+      <p
+        style={
+          Object {
+            "display": "none",
+          }
+        }
+      >
+        |
+      </p>
+      <p
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Arial",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "bold",
+            "lineHeight": "18px",
+            "marginLeft": "5px",
+            "marginRight": "5px",
+          }
+        }
+      >
+        Privacy
+      </p>
+      <p
+        style={
+          Object {
+            "display": "none",
+          }
+        }
+      >
+        |
+      </p>
+      <p
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Arial",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "bold",
+            "lineHeight": "18px",
+            "marginLeft": "5px",
+            "marginRight": "5px",
+          }
+        }
+      >
+        Do Not Sell My Info
+      </p>
+      <p
+        style={
+          Object {
+            "display": "none",
+          }
+        }
+      >
+        |
+      </p>
+      <p
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Arial",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "bold",
+            "lineHeight": "18px",
+            "marginLeft": "5px",
+            "marginRight": "5px",
+          }
+        }
+      >
+        Terms of Use
+      </p>
+    </div>
+  </div>
+</div>
+`;
